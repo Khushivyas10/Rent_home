@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context=".Register">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/loginpage"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="12dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="329dp"
+        android:layout_height="39dp"
+        android:background="@drawable/custom_input"
+        android:hint="Name"
+        android:padding="7dp"
+        android:textSize="20dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="220dp"
+       />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="329dp"
+        android:layout_height="39dp"
+        android:background="@drawable/custom_input"
+        android:hint="Username"
+        android:padding="7dp"
+        android:textSize="20dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="270dp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="329dp"
+        android:layout_height="39dp"
+        android:background="@drawable/custom_input"
+        android:hint="Email"
+        android:padding="7dp"
+        android:textSize="20dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="320dp"
+         />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="329dp"
+        android:layout_height="39dp"
+        android:background="@drawable/custom_input"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="7dp"
+        android:textSize="20dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="370dp"/>
+
+    <EditText
+        android:id="@+id/c_pass"
+        android:layout_width="329dp"
+        android:layout_height="39dp"
+        android:background="@drawable/custom_input"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:padding="7dp"
+        android:textSize="20dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="420dp"
+        />
+
+    <ImageButton
+        android:id="@+id/reg"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@color/White"
+        android:scaleType="fitXY"
+        android:src="@drawable/sgnbuttom"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="480dp"
+         />
+
+    <TextView
+        android:id="@+id/loginUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="540dp"
+        android:hint="Already have an account? Login here"
+        android:textSize="17sp"/>
+
+</RelativeLayout>
